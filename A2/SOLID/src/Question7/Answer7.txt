@@ -1,0 +1,13 @@
+Answers 7:
+
+Q1: Which S.O.L.I.D principle does the following code violate?
+A1: The given code violates "INTERFACE SEGREGATION" principle.
+
+Q2: Why does the code violate the principle?
+A2: In the given code class IInsect have 3 different method(Swim, Fly and MoveAntennae) which are implemented in the AquaticInsect and FlyingInsect class. In AquaticInsect class client do not need fly method.Similarly, in FlyingInsect class client do not need swim method.
+According to INTERFACE SEGREGATION principle "No client should be forced to depend on methods it does not use."
+Hence, we need to create different interface for all these methods and then implement only those methods which are needed in AquaticInsect and FlyingInsect class.
+
+Q3: Write code that fixes the violation.
+A3: Solution to this violation is in Question7 pakage of the SOLID folder.
+Path: ../A2/SOLID/src/Question7

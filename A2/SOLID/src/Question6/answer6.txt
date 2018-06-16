@@ -1,0 +1,13 @@
+Answers 6:
+
+Q1: Which S.O.L.I.D principle does the PiggyBank class violate?
+A1: The given PiggyBank class violates "SINGLE RESPONSIBILITY" principle.
+
+Q2: Why does the code violate the principle?
+A2: In the given code class PiggyBank have 2 responsibilities.
+According to SINGLE RESPONSIBILITY principle "A class should have only one reason to change."
+Hence, we need to create 2 more classes to perform the other responsibilities.
+
+Q3: Write code that fixes the violation.
+A3: Solution to this violation is in Question6 pakage of the SOLID folder.
+Path: ../A2/SOLID/src/Question6

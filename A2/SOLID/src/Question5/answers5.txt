@@ -1,0 +1,13 @@
+Answers 5:
+
+Q1: Which S.O.L.I.D principle does the following code violate?
+A1: The given code violates "Open/Closed principle - Software" principle.
+
+Q2: Why does the code violate the principle?
+A2: In the given code CountryGDPreport have called the class canada and mexico and added that data to the report.
+According to Open/Closed principle - Software principle "entities (classes, modules, functions, etc.) should be open for extension, but closed for modification."
+Hence, i created an interface where different countries can be implemented and inside each country class we can add the methods without violating the principle.
+
+Q3: Write code that fixes the violation.
+A3: Solution to this violation is in Question5 pakage of the SOLID folder.
+Path: ../A2/SOLID/src/Question5

@@ -1,0 +1,13 @@
+Answers 3:
+
+Q1: Which S.O.L.I.D principle does the following code violate?
+A1: The given code violates "SINGLE RESPONSIBILITY" principle.
+
+Q2: Why does the code violate the principle?
+A2: In the given code class ProfitReport have 3 responsibilities.
+According to SINGLE RESPONSIBILITY principle "A class should have only one reason to change."
+Hence, we need to create 2 more classes to perform the other two responsibilities.
+
+Q3: Write code that fixes the violation.
+A3: Solution to this violation is in Question3 pakage of the SOLID folder.
+Path: ../A2/SOLID/src/Question3

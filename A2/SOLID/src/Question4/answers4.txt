@@ -1,0 +1,12 @@
+Answers 4:
+
+Q1: Which S.O.L.I.D principle does the following code violate?
+A1: The given code violates "Liskov Substitution" principle.
+
+Q2: Why does the code violate the principle?
+A2: According to Liskov Substitution principle "Child classes should never break the parent class type definitions."
+In the given code USDollarAccount have to implement the return method to get the new balace after the exchange rate.
+
+Q3: Write code that fixes the violation.
+A3: Solution to this violation is in Question4 pakage of the SOLID folder.
+Path: ../A2/SOLID/src/Question4

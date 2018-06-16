@@ -1,0 +1,13 @@
+Answers 1:
+
+Q1: Which S.O.L.I.D principle does the Employer class violate?
+A1: The Employer class violates "DEPENDENCY INVERSION" principle.
+
+Q2: Why does the code violate the principle?
+A2: In the given class of Employer two java classes HoulryWorker and SalaryWorkers are implemented. If we want to make any changes to HourlyWorker then after changes we have execute SalaryWorker each time. Hence, these classes are coupled with each other.
+According to the DEPENDENCY INVERSION principle "High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend upon details. Details should depend upon abstractions."
+Hence, we need to make one interface that will provide a method for calculation and just one class for worker to calculate both hourly and salary workers. 
+
+Q3: Write code that fixes the violation.
+A3: Solution to this violation is in Question1 pakage of the SOLID folder.
+Path: ../A2/SOLID/src/Question1

@@ -1,0 +1,13 @@
+Answers 2:
+
+Q1: Which S.O.L.I.D principle does the following code violate?
+A1: The given code violates "INTERFACE SEGREGATION" principle.
+
+Q2: Why does the code violate the principle?
+A2: In the given code class ILibraryItem have 5 different method(PlayTime, IsDigitalOnly, Author, Title and Cast) which are implemented in the Book and DVD class. In book class client do not need Playtime, IsDigitalOnly and Cast as client do not use those methods.Similarly, in DVD class client do not need Author and IsDigitalOnly.
+According to INTERFACE SEGREGATION principle "No client should be forced to depend on methods it does not use."
+Hence, we need to create different interface for all these methods and then implement only those methods which are needed in book and DVD class.
+
+Q3: Write code that fixes the violation.
+A3: Solution to this violation is in Question2 pakage of the SOLID folder.
+Path: ../A2/SOLID/src/Question2
