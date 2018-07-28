@@ -12,11 +12,10 @@ public class Person {
     }
 
     public boolean IsPersonRob() {
-	return name.equals("Rob") && IsRobsAddress(address);
+	return name.equals("Rob") && IsRobsAddress();
     }
 
-    private boolean IsRobsAddress(Address address) {
-	return address.getStreet().equals("Rob street") && address.getCity().equals("Rob city")
-		&& address.getProvince().equals("Rob province") && address.getPostalCode().equals("Rob postalcode");
+    private boolean IsRobsAddress() {
+	return address.validateAddress();
     }
 }
